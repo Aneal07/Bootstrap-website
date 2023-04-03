@@ -1,0 +1,31 @@
+@use'../custom' as *;
+@use'../components/mixins' as *;
+
+
+.get-started{
+    background-color: $gray-200;
+    padding: 4rem 0;
+   
+}
+
+.cta-info{
+    padding: 3rem;
+    margin:1rem 0    
+    }
+
+    //FORM CONTENT
+
+    .form{
+        padding: 3rem;
+
+        button{
+            border:none;
+            color: $white;
+
+            a{
+                color: $white;
+                text-decoration: none;
+                text-transform: capitalize;
+            }
+        }
+    }
